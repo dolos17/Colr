@@ -1,0 +1,307 @@
+.palettes {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+body {
+    background: #e0d8d8e8;
+}
+
+.container {
+    padding: 100px 10px;
+}
+
+.header {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.palette {
+    margin:30px 20px ;
+    display: flex;
+    align-items: center;
+    
+}
+
+.palette li {
+    display: inline-block;
+  
+    height: 70px;
+    width: 70px;
+}
+
+.box {
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    font-size: 10pt;
+    bottom: -45px;
+    left: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #313131;
+}
+
+.palette li:nth-last-child(1){
+    border-radius: 0 20px 20px 0;
+}
+.palette li:nth-last-child(4){
+    border-radius: 20px 0 0 20px;
+}
+
+/* palette-----1 */
+
+.pal1 #box1 {
+    background: #071a52;
+}
+.pal1 #box2 {
+    background: #086972;
+}
+.pal1 #box3 {
+    background: #17b978;
+}
+.pal1 #box4 {
+    background: #a7ff83;
+}
+/* palette-----2 */
+
+.pal2 #box1 {
+    background: #533747;
+}
+.pal2 #box2 {
+    background: #5f506b;
+}
+.pal2 #box3 {
+    background: #76949f;
+}
+.pal2 #box4 {
+    background: #86bbbd;
+}
+/* palette-----3 */
+
+.pal3 #box1 {
+    background: #0b0a07;
+}
+.pal3 #box2 {
+    background: #bb1ea8;
+}
+.pal3 #box3 {
+    background: #e3d87e;
+}
+.pal3 #box4 {
+    background: #748067;
+}
+/* palette-----4 */
+
+.pal4 #box1 {
+    background: #993955;
+}
+.pal4 #box2 {
+    background: #a376a6;
+}
+.pal4 #box3 {
+    background: #a3c3d9;
+}
+.pal4 #box4 {
+    background: #ccd6eb;
+}
+/* palette-----5 */
+
+.pal5 #box1 {
+    background: #aa8f66;
+}
+.pal5 #box2 {
+    background: #ed9b40;
+}
+.pal5 #box3 {
+    background: #ffeedb;
+}
+.pal5 #box4 {
+    background: #61c9a8;
+}
+/* palette-----6 */
+
+.pal6 #box1 {
+    background: #f5fbff;
+}
+.pal6 #box2 {
+    background: #92ad94;
+}
+.pal6 #box3 {
+    background: #748b75;
+}
+.pal6 #box4 {
+    background: #503d42;
+}
+/* palette-----7 */
+
+.pal7 #box1 {
+    background: #a0eec0;
+}
+.pal7 #box2 {
+    background: #8ae9c1;
+}
+.pal7 #box3 {
+    background: #86cd82;
+}
+.pal7 #box4 {
+    background: #72a276;
+}
+/* palette-----8 */
+
+.pal8 #box1 {
+    background: #df9a57;
+}
+.pal8 #box2 {
+    background: #fc7a57;
+}
+.pal8 #box3 {
+    background: #fcd757;
+}
+.pal8 #box4 {
+    background: #eefc57;
+}
+/* palette-----9 */
+
+.pal9 #box1 {
+    background: #000000;
+}
+.pal9 #box2 {
+    background: #502f4c;
+}
+.pal9 #box3 {
+    background: #70587c;
+}
+.pal9 #box4 {
+    background: #c8b8db;
+}
+/* palette-----10 */
+
+.pal10 #box1 {
+    background: #090446;
+}
+.pal10 #box2 {
+    background: #786f52;
+}
+.pal10 #box3 {
+    background: #feb952;
+}
+.pal10 #box4 {
+    background: #f71735;
+}
+/* palette-----11 */
+
+.pal11 #box1 {
+    background: #5bc03b;
+}
+.pal11 #box2 {
+    background: #fde74c;
+}
+.pal11 #box3 {
+    background: #9be53d;
+}
+.pal11 #box4 {
+    background: #c3423f;
+}
+/* palette-----12 */
+
+.pal12 #box1 {
+    background: #f2f6d0;
+}
+.pal12 #box2 {
+    background: #d0e1d4;
+}
+.pal12 #box3 {
+    background: #d9d2d6;
+}
+.pal12 #box4 {
+    background: #e4be9e;
+}
+/* palette-----13 */
+
+.pal13 #box1 {
+    background: #59c3c3;
+}
+.pal13 #box2 {
+    background: #52489c;
+}
+.pal13 #box3 {
+    background: #cad2c5;
+}
+.pal13 #box4 {
+    background: #84a98c;
+}
+/* palette-----14 */
+
+.pal14 #box1 {
+    background: #53b3cb;
+}
+.pal14 #box2 {
+    background: #f9c22e;
+}
+.pal14 #box3 {
+    background: #f15946;
+}
+.pal14 #box4 {
+    background: #e01a48;
+}
+/* palette-----15 */
+
+.pal15 #box1 {
+    background: #e1ce7a;
+}
+.pal15 #box2 {
+    background: #fbffb9;
+}
+.pal15 #box3 {
+    background: #fdd692;
+}
+.pal15 #box4 {
+    background: #ec7357;
+}
+/* palette-----16 */
+
+.pal16 #box1 {
+    background: #d9f4c7;
+}
+.pal16 #box2 {
+    background: #f8fa90;
+}
+.pal16 #box3 {
+    background: #f4ef88;
+}
+.pal16 #box4 {
+    background: #ac9969;
+}
+/* palette-----17 */
+
+.pal17 #box1 {
+    background: #f1f5f8;
+}
+.pal17 #box2 {
+    background: #b40816;
+}
+.pal17 #box3 {
+    background: #98878a;
+}
+.pal17 #box4 {
+    background: #0e81f9;
+}
+/* palette-----18 */
+
+.pal18 #box1 {
+    background: #9ccde3;
+}
+.pal18 #box2 {
+    background: #fa0917;
+}
+.pal18 #box3 {
+    background: #91940a;
+}
+.pal18 #box4 {
+    background: #e3996f;
+}
